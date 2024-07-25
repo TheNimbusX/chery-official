@@ -181,8 +181,8 @@ const swiper2 = new Swiper(".mySwiper2", {
       loop: false,
       mousewheel: true,
       keyboard: true,
-      spaceBetween:105,
-      slidesPerView: 2,
+      spaceBetween: 15,
+      slidesPerView: 2.7,
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
