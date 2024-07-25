@@ -1,0 +1,623 @@
+.credit-popup {
+  background-image: url(../images/popups/credit-popup-bg.jpg);
+  width: 633px;
+  height: 432px;
+  padding: 0;
+}
+
+.fancybox__content > .f-button.is-close-btn {
+  --f-button-width: 17px;
+  --f-button-height: 17px;
+
+  --f-button-border-radius: 0px;
+  --f-button-color: #fff;
+  --f-button-hover-color: #fff;
+  mix-blend-mode: difference;
+
+  --f-button-bg: transparent;
+  --f-button-hover-bg: transparent;
+  --f-button-active-bg: transparent;
+
+  --f-button-svg-width: 17px;
+  --f-button-svg-height: 17px;
+  position: absolute;
+
+  top: 22px;
+  right: 26px;
+  opacity: 1;
+}
+
+.popup-title {
+  color: white;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 42.36px;
+  text-align: left;
+  margin-bottom: 15px;
+  padding: 30px 0 0 39px;
+}
+
+.popup-title .percent {
+  color: #c20120;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.89px;
+}
+
+.popup-title .no-debit {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 33.89px;
+}
+
+.options-popup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-left: 85px;
+}
+
+.popup-option-item {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  text-align: left;
+  color: #fff;
+  position: relative;
+}
+
+.popup-option-item span {
+  font-weight: 700;
+}
+
+.popup-option-item::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 7px;
+
+  width: 33px;
+  height: 1px;
+
+  background-color: #c20120;
+}
+
+.popup-option-item::after {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 5px;
+
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+
+  background-color: #c20120;
+}
+
+.form-popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 37px;
+  padding-left: 39px;
+}
+
+.popup-inputs-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#name-popup,
+#telephone-popup {
+  width: 254px;
+  height: 40px;
+  background-color: #ffffffb0;
+  outline: none;
+  padding-left: 20px;
+  transform: skew(-25deg);
+  border: none;
+}
+
+#name-popup input,
+#telephone-popup input {
+  transform: skew(25deg);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  border: none;
+  outline: none;
+}
+
+#name-popup input::placeholder,
+#telephone-popup input::placeholder {
+  color: #00000070;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+}
+
+.popup-inputs-wrapper #name-popup input,
+.popup-inputs-wrapper #telephone-popup input {
+  background-color: transparent;
+  width: 220px;
+  height: 40px;
+}
+
+.popup-button {
+  align-self: flex-start !important;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20.57px;
+  text-align: left;
+  padding: 14px 58px !important;
+  padding-left: 45px !important;
+  max-width: 254px !important;
+  height: 48px !important;
+  margin-top: 18px;
+}
+.popup-personal-data-wrapper {
+  align-self: flex-start !important;
+  margin-top: 12px !important;
+}
+.popup-personal-data-text {
+  color: white;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12.1px;
+  text-align: left ;
+  
+}
+.popup-personal-data-text span {
+  font-weight: 700;
+}
+
+.popup-personal-data-text a {
+  font-weight: 700;
+  color: white;
+}
+
+.checkbox-popup input[type="checkbox"]:checked ~ b:after {
+  color: #c20120;
+}
+.checkbox-popup input[type="checkbox"] ~ b {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+/* normal popup  normal popup normal popup normal popup normal popup */
+
+.normal-popup {
+  background-image: url(../images/popups/normal-popup-bg.jpg);
+}
+
+#name-popup-normal,
+#telephone-popup-normal {
+  width: 254px;
+  height: 40px;
+  background-color: #ffffffb0;
+  outline: none;
+  padding-left: 20px;
+  transform: skew(-25deg);
+  border: none;
+}
+
+#name-popup-normal input,
+#telephone-popup-normal input {
+  transform: skew(25deg);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  border: none;
+  outline: none;
+}
+
+#name-popup-normal input::placeholder,
+#telephone-popup-normal input::placeholder {
+  color: #00000070;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+}
+
+.popup-inputs-wrapper #name-popup-normal input,
+.popup-inputs-wrapper #telephone-popup-normal input {
+  background-color: transparent;
+  width: 220px;
+  height: 40px;
+}
+
+/* tradein popup tradein popup tradein popup tradein popup  */
+
+.tradein-popup {
+  background-image: url(../images/popups/tradein-popup-bg.jpg);
+}
+
+#name-popup-tradein,
+#telephone-popup-tradein {
+  width: 254px;
+  height: 40px;
+  background-color: #ffffffb0;
+  outline: none;
+  padding-left: 20px;
+  transform: skew(-25deg);
+  border: none;
+}
+
+#name-popup-tradein input,
+#telephone-popup-tradein input {
+  transform: skew(25deg);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  border: none;
+  outline: none;
+}
+
+#name-popup-tradein input::placeholder,
+#telephone-popup-tradein input::placeholder {
+  color: #00000070;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+}
+
+.popup-inputs-wrapper #name-popup-tradein input,
+.popup-inputs-wrapper #telephone-popup-tradein input {
+  background-color: transparent;
+  width: 220px;
+  height: 40px;
+}
+
+/* thanks popup thanks popup thanks popup thanks popup thanks popup  */
+
+.thanks-popup {
+  background-image: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.thanks-popup::after {
+  content: "";
+  bottom: -280px;
+  right: -250px;
+  position: absolute;
+
+  background-color: #00000012;
+  height: 420px;
+  width: 420px;
+
+  transform: rotate(52deg);
+  overflow: hidden;
+}
+
+.popup-logo {
+  max-width: 172px;
+  max-height: 97px;
+  align-self: center;
+  margin-top: 39px;
+}
+
+.thanks-popup .popup-title {
+  font-size: 39px;
+  font-weight: 500;
+  line-height: 67px;
+  text-align: center;
+  color: black;
+  padding: 0;
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+
+.thanks-popup .option-item-thanks {
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 67px;
+  text-align: center;
+}
+
+.thanks-popup .option-item-thanks::before {
+  display: none;
+}
+
+.thanks-popup .option-item-thanks::after {
+  display: none;
+}
+
+/* adaptive adaptive adaptive  */
+
+@media (width < 634px) {
+  .credit-popup {
+    background-image: url(../images/popups/credit-popup-bg-mob.jpg);
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 320px;
+    padding: 0;
+  }
+
+  .popup-title {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+    padding: 18px 0 0 15px;
+    margin-bottom: 11px;
+  }
+
+  .popup-title .percent {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+  }
+
+  .popup-title .no-debit {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+  }
+
+  .fancybox__content > .f-button.is-close-btn {
+    --f-button-width: 13px;
+    --f-button-height: 13px;
+    --f-button-svg-width: 13px;
+    --f-button-svg-height: 13px;
+    top: 15px;
+    right: 17px;
+  }
+
+    .is-compact .fancybox__content>.f-button.is-close-btn {
+        top: 15px;
+          right: 17px;
+    }
+
+  .options-popup {
+    padding-left: 44px;
+  }
+
+  .popup-option-item {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.1px;
+    text-align: left;
+  }
+
+  .popup-option-item::before {
+    width: 20px;
+    left: -30px;
+  }
+
+  .popup-option-item::after {
+    left: -10px;
+  }
+
+.form-popup {
+  padding: 0;
+  margin-top: 48px;
+  align-items: center;
+}
+
+.popup-inputs-wrapper { 
+  gap: 6px;
+}
+
+#name-popup,
+#telephone-popup {
+  width: 315px;
+  height: 34px;
+  background-color: white;
+  outline: 1px solid black;
+}
+
+#name-popup input,
+#telephone-popup input {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 16.94px;
+}
+
+#name-popup input::placeholder,
+#telephone-popup input::placeholder {
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 16.94px;
+}
+
+.popup-inputs-wrapper #name-popup input,
+.popup-inputs-wrapper #telephone-popup input {
+  background-color: transparent;
+  width: 310px;
+  height: 34px;
+}
+
+.popup-button {
+  align-self: center !important;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  text-align: left;
+  padding: 11px 110px !important;
+  padding-left: 100px !important;
+  max-width: 315px !important;
+  height: 37px !important;
+  margin-top: 6px;
+}
+
+.popup-personal-data-wrapper {
+  margin-top: 5px !important;
+  align-self: flex-start !important;
+  padding-left: 15px;
+}
+
+.popup-personal-data-text {
+  color: rgb(0, 0, 0);
+    font-size: 7px;
+    font-weight: 400;
+    line-height: 8.47px;
+    text-align: left;  
+}
+
+.popup-personal-data-text a {
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+.checkbox-popup input[type="checkbox"]~b {
+  background-color: transparent;
+  border: 1px solid rgb(0, 0, 0);
+}
+.checkbox-popup input[type="checkbox"]:checked~b:after {
+  color: #000000;
+}
+
+
+
+
+/* normal popup  normal popup normal popup normal popup normal popup */
+
+.normal-popup {
+  background-image: url(../images/popups/normal-popup-bg-mob.jpg);
+}
+
+#name-popup-normal,
+#telephone-popup-normal {
+  width: 315px;
+    height: 34px;
+    background-color: white;
+    outline: 1px solid black;
+}
+
+#name-popup-normal input,
+#telephone-popup-normal input {
+font-size: 11px;
+  font-weight: 500;
+  line-height: 16.94px;
+}
+
+#name-popup-normal input::placeholder,
+#telephone-popup-normal input::placeholder {
+  color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 16.94px;
+}
+
+.popup-inputs-wrapper #name-popup-normal input,
+.popup-inputs-wrapper #telephone-popup-normal input {
+  background-color: transparent;
+    width: 310px;
+    height: 34px;
+}
+
+
+/* tradein popup tradein popup tradein popup tradein popup  */
+
+.tradein-popup {
+  background-image: url(../images/popups/tradein-popup-bg-mob.jpg);
+}
+
+#name-popup-tradein,
+#telephone-popup-tradein {
+  width: 315px;
+    height: 34px;
+    background-color: white;
+    outline: 1px solid black;
+}
+
+#name-popup-tradein input,
+#telephone-popup-tradein input {
+  font-size: 11px;
+    font-weight: 500;
+    line-height: 16.94px;
+}
+
+#name-popup-tradein input::placeholder,
+#telephone-popup-tradein input::placeholder {
+  color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 16.94px;
+}
+
+.popup-inputs-wrapper #name-popup-tradein input,
+.popup-inputs-wrapper #telephone-popup-tradein input {
+  background-color: transparent;
+    width: 310px;
+    height: 34px;
+}
+
+
+/* thanks popup thanks popup thanks popup thanks popup thanks popup  */
+
+.thanks-popup {
+  background-image: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.thanks-popup::after {
+  content: "";
+  bottom: -340px;
+  right: -250px;
+  position: absolute;
+
+  background-color: #00000012;
+  height: 420px;
+  width: 420px;
+
+  transform: rotate(52deg);
+  overflow: hidden;
+}
+
+.popup-logo {
+  max-width: 116px;
+  max-height: 65px;
+  align-self: center;
+  margin-top: 28px;
+}
+
+.thanks-popup .popup-title {
+font-family: Inter;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 67px;
+  text-align: center;
+  color: black;
+  padding: 0;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+.thanks-popup .option-item-thanks {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  max-width: 227px;
+  align-self: center;
+}
+
+.thanks-popup .option-item-thanks::before {
+  display: none;
+}
+
+.thanks-popup .option-item-thanks::after {
+  display: none;
+}
+
+}
