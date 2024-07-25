@@ -1221,6 +1221,13 @@ function closeOnClick() {
 
 
 
-///////////////////////////////////////// фэнсибокс попапы 
+//////lazy
+$(window).on("scroll", function () {
+  lazyLoad.img(5);
+  lazyLoad.bg(30);
+});
 
-// Show HTML element
+if ($(window).scrollTop() > 10) {
+  lazyLoad.img(5);
+  lazyLoad.bg(30);
+} 
