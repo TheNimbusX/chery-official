@@ -1012,52 +1012,7 @@ IMask(document.getElementById("telPopup3"), {
 });
 
 
-////////////////////////////////////yandex api
 
-// var viewport = {
-//   width: $(window).width(),
-//   height: $(window).height(),
-// };
-// var width = viewport.width;
-// var height = viewport.height;
-
-// if (width > 768) {
-//   var zoomval = 15;
-//   var pin = [55.575047, 37.589261];
-// } else {
-//   var zoomval = 14;
-//   var pin = [55.574047, 37.589261];
-// }
-
-// ymaps.ready(init);
-// function init() {
-//   var myMap = new ymaps.Map("map", {
-//     center: pin,
-//     zoom: zoomval,
-//     controls: [],
-//   });
-//   var placemark = new ymaps.Placemark(
-//     [55.581047, 37.589261],
-//     {
-//       hintContent: "Omoda",
-//     },
-//     {
-//       iconLayout: "default#image",
-//       iconImageHref: "./images/pin.png",
-//       iconImageSize: [65, 85],
-//       iconImageOffset: [-16, -16],
-//       preset: "islands#green",
-//     }
-//   );
-
-//   myMap.geoObjects.add(placemark);
-//   myMap.controls.remove("geolocationControl"); // удаляем геолокацию
-//   myMap.controls.remove("searchControl"); // удаляем поиск
-//   myMap.controls.remove("trafficControl"); // удаляем контроль трафика
-//   myMap.controls.remove("typeSelector"); // удаляем тип
-//   myMap.controls.remove("rulerControl"); // удаляем контроль правил
-//   myMap.behaviors.disable(["scrollZoom"]); // отключаем скролл карты (опционально)
-// }
 
 ///////////////////////////////////// arrow-show-more
 

@@ -1,5 +1,5 @@
 .credit-popup {
-  background-image: url(../images/popups/credit-popup-bg.jpg);
+  background-image: url(../images/popups/credit-popup-bg.webp);
   width: 633px;
   height: 432px;
   padding: 0;
@@ -193,7 +193,7 @@
 /* normal popup  normal popup normal popup normal popup normal popup */
 
 .normal-popup {
-  background-image: url(../images/popups/normal-popup-bg.jpg);
+  background-image: url(../images/popups/normal-popup-bg.webp);
 }
 
 #name-popup-normal,
@@ -237,7 +237,7 @@
 /* tradein popup tradein popup tradein popup tradein popup  */
 
 .tradein-popup {
-  background-image: url(../images/popups/tradein-popup-bg.jpg);
+  background-image: url(../images/popups/tradein-popup-bg.webp);
 }
 
 #name-popup-tradein,
@@ -338,7 +338,7 @@
 
 @media (width < 634px) {
   .credit-popup {
-    background-image: url(../images/popups/credit-popup-bg-mob.jpg);
+    background-image: url(../images/popups/credit-popup-bg-mob.webp);
     background-repeat: no-repeat;
     width: 360px;
     height: 320px;
@@ -488,7 +488,7 @@
 /* normal popup  normal popup normal popup normal popup normal popup */
 
 .normal-popup {
-  background-image: url(../images/popups/normal-popup-bg-mob.jpg);
+  background-image: url(../images/popups/normal-popup-bg-mob.webp);
 }
 
 #name-popup-normal,
@@ -526,7 +526,7 @@ font-size: 11px;
 /* tradein popup tradein popup tradein popup tradein popup  */
 
 .tradein-popup {
-  background-image: url(../images/popups/tradein-popup-bg-mob.jpg);
+  background-image: url(../images/popups/tradein-popup-bg-mob.webp);
 }
 
 #name-popup-tradein,

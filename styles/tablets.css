@@ -7,7 +7,7 @@
 
   .header {
     position: relative;
-    background-image: url(../images/mobile/header-bg.png);
+    background-image: url(../images/mobile/header-bg.webp);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -211,7 +211,7 @@
 
   .arrow-more {
     display: block;
-    background-image: url(../images/mobile/arrow-more.png);
+    background-image: url(../images/mobile/arrow-more.webp);
     width: 5px;
     height: 8.3px;
     position: absolute;
@@ -275,7 +275,7 @@
   }
 
   .model-card-middle-side {
-    background-image: url(../images/mobile/card-bg.png);
+    background-image: url(../images/mobile/card-bg.webp);
     background-size: cover;
     margin-left: 20px;
     margin-right: 20px;
@@ -2364,7 +2364,7 @@
     background-size: cover;
     width: 320px;
     height: 444px;
-    background-image: url(../images/mobile/comp-bg.png);
+    background-image: url(../images/mobile/comp-bg.webp);
   }
 
   .complectation-cards-title {
@@ -2467,7 +2467,7 @@
   /* credit credit credit credit credit credit  */
 
   .main__credit {
-    background-image: url(../images/mobile/credit-bg.png);
+    background-image: url(../images/mobile/credit-bg.webp);
     padding-top: 0;
     margin-top: 67px;
     height: 622px;
@@ -2572,7 +2572,7 @@
   /* trade in trade in trade in trade in trade in   */
 
   .main__trade-in {
-    background-image: url(../images/mobile/tradein-bg.png);
+    background-image: url(../images/mobile/tradein-bg.webp);
     background-size: contain;
     padding-left: 20px;
     padding-right: 20px;
@@ -2871,7 +2871,7 @@
 
 @media (width > 475px) and (width < 769px) {
   .header {
-    background-image: url(../images/banner-black.jpg);
+    background-image: url(../images/banner-black.webp);
     background-size: auto 100vh;
   }
 
@@ -3359,7 +3359,7 @@
     background-size: cover;
     width: 320px;
     height: 444px;
-    background-image: url(../images/mobile/comp-bg.png);
+    background-image: url(../images/mobile/comp-bg.webp);
   }
 
   .complectation-cards-title {
